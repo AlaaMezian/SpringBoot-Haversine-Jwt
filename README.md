@@ -9,7 +9,7 @@ d = R ⋅ c
 where	φ is latitude, λ is longitude, R is earth’s radius (mean radius = 6,371km);
 note that angles need to be in radians to pass to trig functions!
 
-# How Can We Make A good User of it 
+# How Can We Make A good Use of it 
 imagine you have a list of long and lat of locations in a database and a user provided you with his location using haver sine formula we can do magic haver sine going to calculate the distance between the user location and a given point and then we can classify if we want to display the other location or not if it match our specified distance 
 
 other user we can query directly to the data base using haversine forumla which mean we can retrive entites based on there locations with in distance from neareast to farthest using this magical query 
