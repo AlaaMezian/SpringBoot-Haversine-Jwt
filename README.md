@@ -27,7 +27,7 @@ static String HAVERSINE_PART = "(6371 * acos(cos(radians(:latitude)) * cos(radia
   
   # What is Jwt Authentication ?! 
   
-its an authentication mechanism based aroud if user is authenticated he/she will obtain an encrypted token and that token will be used to authenticate the used ,the used will provide the token on each request and the server will decide if its a valid token or not and then grant access for the user on that resource.
+its an authentication mechanism based aroud if user is authenticated he/she will obtain an encrypted token and that token will be used to authenticate the user ,the user will provide the token on each request and the server will decide if its a valid token or not and then grant access for the user on that resource.
 
 we integrated role based access by putting the role of the user inside the token and then use spring security annotations such as @PreAuthorized("hasRole('ROLE-CUSTOMER')") to know whether the user is authorized to perform an action / get access to a specific end point 
 
