@@ -17,9 +17,6 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.example.util.AppLogger;
 
-/*
- * created by novent Group backend team (abo-elmeez) 
- */
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
 	@Autowired
