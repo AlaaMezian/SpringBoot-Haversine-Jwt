@@ -10,9 +10,9 @@ where	φ is latitude, λ is longitude, R is earth’s radius (mean radius = 6,37
 note that angles need to be in radians to pass to trig functions!
 
 # How Can We Make A good Use of it 
-imagine you have a list of long and lat of locations in a database and a user provided you with his location ,using haver sine formula we can do magic, haver sine going to calculate the distance between the user location and a given point so we can then use it to display user with in a radius .
+imagine you have a list of long and lat of locations in a database and a user provided you with his location ,using haver sine formula we can do magic, haver sine going to calculate the distance between the user location and a given point so we can then use it ,to display locations near user with in a radius .
 
-other user we can query directly to the data base using haversine forumla which mean we can retrive entites based on there locations with in distance from neareast to farthest using this magical query 
+other use we can query directly to the data base using haversine forumla which mean we can retrive entites based on there locations with in distance from neareast to farthest using this magical query 
 
 :boom::boom:
 ```java 
