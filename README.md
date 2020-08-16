@@ -31,7 +31,7 @@ its an authentication mechanism based aroud if user is authenticated he/she will
 
 we integrated role based access by putting the role of the user inside the token and then use spring security annotations such as @PreAuthorized("hasRole('ROLE-CUSTOMER')") to know whether the user is authorized to perform an action / get access to a specific end point 
 
-please feel free to rate :star:  happy programming :smiley: :v: 
+please feel free to rate :star:  happy programming :v: 
 
  [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet)
 
